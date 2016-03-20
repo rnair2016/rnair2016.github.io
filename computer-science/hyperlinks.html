@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hyperlinks</title>
+            <style>
+                img{
+                   opacity: .5; 
+                }
+                img:hover{
+                    opacity: 1;
+                }
+                button{
+                    font-size:300%;
+                    border-style: solid;
+                    background-color:aqua;
+                    font-family: comic sans;
+                }
+            </style>
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+                </script>
+    </head>
+    <body>
+        <div id="googleMap" style="width:500px;height:380px;"></div>
+        <a href="https://www.google.com/webhp?hl=en">The google</a>
+        <br>
+        <a href="http://www.sportsauthority.com/home/index.jsp">Sports Authrity</a>
+        <br>
+        <a href="http://www.nike.com/language_tunnel?ref=https%3A%2F%2Fwww.google.com%2F"><button>I am a button click me</button></a>
+        <br>
+        <img src="http://www.xblora.com/wp-content/uploads/2016/02/apple-logo.jpg"/>
+    </body>
+</html>

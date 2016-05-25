@@ -1,67 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Harwardware identification</title>
+  <title>Radhika's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <style>
-        table, td, th {    
-            border: 1px solid #ddd;
-            text-align: left;
-        }
-        
-        tr,td {
-            padding: 15px;
-        }
-        
-        tr:nth-child(even){background-color: #99ffeb}
-        
         body{
-            background-image: url("https://s-media-cache-ak0.pinimg.com/736x/20/d2/27/20d2277493856b96f78046b1efe31fdd.jpg");
-            
+            background-color:#ccffe6;
         }
-    
     </style>
 </head>
 <body>
 
 <div class="container">
-  <div class="jumbotron">
-    <h1>Hardware Identification Chart</h1><!--h1 tag-->      
-  </div><!--jumbotron-->    
-</div><!--container-->
-    <center>
-        <table class="center"></table>
-    <table border="1" style="width:80%">
-  <tr>
-    <td><img src="http://imgur.com/WM6y8Eq"></td>
-    <td>Motherboard</td>		
-    <td>A motherboard holds all of the parts of a computer together. It holds together many of the necessary components of a computer.</td>
-  </tr><!--Motherboard tr-->
-  <tr>
-    <td><img src="http://imgur.com/IfJHjiN"></td>
-    <td>Hard Disk Drive</td>		
-    <td>A hard drive is a permanent data storage device in the computer. It stores data on its disks, that is why it is also known as hard disk drives. It is used for both storing and retrieving data.</td>
-  </tr><!--Hard Disk Drive tr-->
-  <tr>
-    <td><img src="http://imgur.com/m7UoBNu"></td>
-    <td>Graphics Card</td>		
-    <td>A graphics card controls and enhances what is shown on the display screen of your computer.</td>
-  </tr><!--RAM tr-->
-  <tr>
-      <td><img src="http://imgur.com/QuBUALN"></td>
-      <td>Power supply</td>
-      <td>A power supply unit converts the alternate current to direct current for all of the parts inside a computer</td>
-  </tr><!--power supply tr-->
-  <tr>
-      <td><img src="http://imgur.com/85EvSh4"></td>
-      <td>Audio Card</td>
-      <td>An audio card is a device that attaches to the PCI slot on motherboard to let the computer deliver sound.</td>
-  </tr>
-    </center>
-</table><!--table-->   
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Image manipulation</a></li>
+    <li><a data-toggle="tab" href="#menu2">Round Robin</a></li>
+    <li><a data-toggle="tab" href="#menu3">Hardware Chart</a></li>
+    <li><a data-toggle="tab" href="#menu4">3D models</a></li>
+    <li><a data-toggle="tab" href="#menu5">Unreal project</a></li>
+  </ul>
+
+  <div class="tab-content">
+      
+    <div id="home" class="tab-pane fade in active">
+      <h3>Home</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kh8YUERe7-c" frameborder="0" allowfullscreen></iframe>
+      <p>In this website I have put my two favorite pieces of work from all of the units we have learned. I chose these pieces because these were the assignments I had put a lot of effort into, during the beginning of the year. I learned how to change the background on images, put new backgrounds in, and much more. I also learned how to digitally design using gimp. After the image manipulation unit we learned how to code using 4 different languages: HTML, CSS, Bootstrap, and a litle bit of Javascript. In that unit, the websites that I was the most proud of, were the ones I had made for the round robin. After that unit, we learned how to 3D model using blender. This was one of my favorite units because I was really happy that I could mould something into a whole different object. During the beginning of the unit I had struggled with making the snowman, but I got more used to it as we progressed, and it turned out to be my favorite unit. The hardware identification unit was a unit mixed with html coding and 3D modeling. I learned how computers work and why they stop working at times. I also learned how the inside of a computer is supposed to be assembled and learned the names of the different parts inside a computer. Finally during the Unreal unit we had made a mars biosphere to show our skills we had aquired working with unreal for about a week. I learned how to make landscapes, add textures, and also how to import and export objects in and out of unreal. When I am in eighth grade, I want to be able to code confidently in Javascript, and be able to work more on 3D modeling.</p>
+    </div><!--div home-->
+      
+    <div id="menu1" class="tab-pane fade">
+      <h3>Image Manipulation</h3>
+        <br>
+        <img src="http://imgur.com/Lh4uxW3">
+        <img src="http://imgur.com/qceAuzx">
+    </div><!--div menu 1-->
+      
+    <div id="menu2" class="tab-pane fade">
+      <h3>Round Robin</h3>
+        <img src="http://imgur.com/JzLfj4X"></img>
+      <img src="http://imgur.com/zZ3PFIh"></img>
+    </div><!--div menu 2-->
+      
+    <div id="menu3" class="tab-pane fade">
+      <h3>Hardware Chart</h3>
+        <img src="http://imgur.com/P2DvVFK"></img>
+    </div><!--div menu 3-->
+      
+    <div id="menu4" class="tab-pane fade">
+      <h3>3D models</h3>
+        <img src="http://imgur.com/K9m3Uz6"></img>
+      <img src="http://imgur.com/tLdcXrV"></img>
+    </div><!--div menu 4-->
+      
+    <div id="menu5" class="tab-pane fade">
+      <h3>Unreal Project</h3>
+        <img src="http://imgur.com/89DPWfC">
+        <img src="http://imgur.com/dsmO6F1">
+    </div><!--div menu 5-->
+      
+  </div><!--div tab content-->
+    
+</div><!--div container-->
+
 </body>
 </html>
